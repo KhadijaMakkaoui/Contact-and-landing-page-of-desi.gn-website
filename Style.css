@@ -1,3 +1,53 @@
 body{
     background-color: bisque;
 }
+ul{
+    display: flex;
+    margin-left: 30%;
+}
+li{
+    list-style: none;
+    padding: 17px;
+    font-size: 26px;
+    margin-top: -75px;
+}
+nav p{
+    padding: 1px;
+    width: 47px;
+    margin-left: 10px;
+   color: blue;
+    font-size: 29px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.header-botton{
+    margin-left: 80%;
+    margin-top: -90px;
+    width: 136px;
+    padding:20px;  
+}
+.header-b1{
+    padding: 7px;
+    width: 60px;
+    border: none;
+    background-color: bisque;
+ 
+
+}
+.header-b2{
+    position:relative;
+    left: 70px;
+    bottom:  33px;
+   
+    padding: 7px;
+    width: 80px;
+    color: white;
+    background-color: royalblue;
+    border: solid 1px black;
+  
+
+
+}
+}
