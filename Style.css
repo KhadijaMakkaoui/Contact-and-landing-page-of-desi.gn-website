@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-.abdo-div1 {
-    background-color: gainsboro;
+.cmain-form{
+    background-color:gainsboro;
     /* border: 1px solid black;
     width: 400px; */
     /* padding-left: 50%; */
@@ -11,10 +10,10 @@
 
     
 }
-.abdo-Envoyer{
-    /* text-align: center; */
+.cmain-envoyer{
+    text-align: center;
 }
-.abdo-main {
+.cmain {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px;
     display: grid;
@@ -27,7 +26,7 @@
     
     
 }
-.abdo-div2 {
+.cmain-contact {
     background-color: gainsboro;
     /* border: 1px solid black;
     width: 400px; */
@@ -39,8 +38,3 @@
     left: 10%;
     bottom: 410px ; */
 }
-=======
-body{
-    background-color: bisque;
-}
->>>>>>> main
