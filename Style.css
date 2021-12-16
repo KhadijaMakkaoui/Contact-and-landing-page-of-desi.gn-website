@@ -1,2 +1,25 @@
+body{
+    background-color: bisque;
+   
+}
+
+/* start second-half */
+.second-half-p h1{
+color: #13366D;
+}
+.second-half-p p{
+    color: #A2A2A2;
+}
+.second-half{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 5px;
+}
+.second-half .Card{
+background-color: red;
+height: 150px;
+width: 100px;
 
 }
+
+/* end second-half */
