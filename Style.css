@@ -1,0 +1,40 @@
+.abdo-div1 {
+    background-color: gainsboro;
+    /* border: 1px solid black;
+    width: 400px; */
+    /* padding-left: 50%; */
+    /* text-align: center;
+    /* position: relative;
+    left: 50%; */
+    /* margin: 0 auto; */
+
+    
+}
+.abdo-Envoyer{
+    /* text-align: center; */
+}
+.abdo-main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    display: grid;
+    border: 1px solid black;
+    width: 70%;
+    /* position: relative;
+    left: 12.5%; */
+    margin: 0 auto;
+
+    
+    
+}
+.abdo-div2 {
+    background-color: gainsboro;
+    /* border: 1px solid black;
+    width: 400px; */
+    padding: 20px ; 
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    /* position: relative;
+    left: 10%;
+    bottom: 410px ; */
+}
