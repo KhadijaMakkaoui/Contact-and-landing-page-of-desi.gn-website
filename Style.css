@@ -4,17 +4,19 @@
 .header-all{
     display: flex;
     background-color: chartreuse;
+    justify-content: space-between;
 }
 .header-button{
-   display: flex;
+   /* display: flex; */
    background-color: coral;
-   width: 100%;
-   justify-content: flex-end;
+   /* width: 100%; */
+   /* justify-content: flex-end; */
 }
 .header-ul{
     display: flex;
     background-color: rgb(235, 12, 160);
-    width: ;
+    width: 30%;
+    justify-content: space-between;
 }
  
 
