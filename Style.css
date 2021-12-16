@@ -39,11 +39,8 @@
     left: 10%;
     bottom: 410px ; */
 }
-=======
-body{
-    background-color: bisque;
-   
-}
+
+
 
 /* start second-half */
 .second-half-p h1{
@@ -66,3 +63,8 @@ width: 100px;
 
 /* end second-half */
 
+/* start first half */
+.header-color{
+   color: #13366D; 
+}
+/* end first half */
