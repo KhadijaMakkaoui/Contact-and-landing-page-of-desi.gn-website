@@ -3,44 +3,71 @@ body{
   
 }
 .cmain-form{
-    background-color:gainsboro;
-    /* border: 1px solid black;
-    width: 400px; */
-    /* padding-left: 50%; */
-    /* text-align: center;
-    /* position: relative;
-    left: 50%; */
-    /* margin: 0 auto; */
-
-    
+    background-color:rgb(233, 222, 158);  
+}
+.cmain-label {
+    padding: 10px ;  
+}
+.cmain-label1 {
+    padding-top: 40px;
+    display: grid ;
+}
+.cmain-label2  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.cmain-label3 {
+    display: grid;
+    padding-top: 10px;
+}
+.cmain-label4 {
+    display: grid ;
+    padding-top: 10px;
 }
 .cmain-envoyer{
+    background-color: deepskyblue;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 3px;
+    margin-top: 10px;
 }
 .cmain {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 500px;
     display: grid;
     border: 1px solid black;
-    width: 70%;
-    /* position: relative;
-    left: 12.5%; */
+    width: 80%;
     margin: 0 auto;
-
-    
-    
+}
+.cmain-img {
+    margin-top: 10px;
+}
+.cmain-img3 {
+    margin-top: 10px;
+}
+.cmain-paragraphe {
+    font-size: 110%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 30, 207);
+}
+.cmain-contactus{
+    padding-top: 80px;
+}
+.cmain-icon {
+padding: 10px 20px;
+display: grid;
+grid-template-columns: 1fr 6fr;
 }
 .cmain-contact {
-    background-color: gainsboro;
-    /* border: 1px solid black;
-    width: 400px; */
+    background-color: rgb(255, 255, 255);
     padding: 20px ; 
     text-align: center;
     grid-row: 1;
     grid-column: 1;
-    /* position: relative;
-    left: 10%;
-    bottom: 410px ; */
+    text-align: left;
 }
 
 
