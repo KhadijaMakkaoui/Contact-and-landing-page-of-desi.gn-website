@@ -1,66 +1,41 @@
 *{
     box-sizing: border-box;
 }
-
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
-
 .header-all{
-    position: relative;
-    left: 130px;
     display: flex;
-
     justify-content: space-between;
     padding-left: 75px;
     padding-right: 75px;
-    
-    
-
-
-
 }
 .header-button{
-    position: relative;
-    right: 12px;
-    top: 7px;
  
-   /* display: flex; */
-  
-  
+ 
    padding:12px;
-   /* width: 100%; */
-   /* justify-content: flex-end; */
+
 }
 .header-ul{
-    position: relative;
     display: flex;
-    left: 16%;
- 
-
-    width: 27%;
+    width: 40%;
     justify-content: space-between;
-    list-style: none;
-    top: 7px;
-    
-  
+    list-style: none; 
 }
 .header-link{
     margin-right: 20px;
     text-decoration: none;
     color: black;
-    font-weight: 700;
     font-size: 19px;
-   
-
- 
 }
 .header-b2{
     padding: 6px;
-    background-color: rgb(97, 97, 228);
-
-    
+    background-color: rgb(18, 18, 209);
+    width: 96px;
+    color: cornsilk;
+    border: none;
 }
 li a{
     text-decoration: none;
@@ -68,93 +43,8 @@ li a{
     font-weight: 700;
 }
 .header-p{
+color: rgb(78, 78, 235);
+font-size: 19px;
 
-   
-
-    
 
 }
-img{
-    
-    width: 5%;
-  
-  
-
-}
-
-
- 
-
-
-<<<<<<< HEAD
-=======
-.cmain-form{
-    background-color:gainsboro;
-    /* border: 1px solid black;
-    width: 400px; */
-    /* padding-left: 50%; */
-    /* text-align: center;
-    /* position: relative;
-    left: 50%; */
-    /* margin: 0 auto; */
-
-    
-}
-.cmain-envoyer{
-    text-align: center;
-}
-.cmain {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px;
-    display: grid;
-    border: 1px solid black;
-    width: 70%;
-    /* position: relative;
-    left: 12.5%; */
-    margin: 0 auto;
-
-    
-    
-}
-.cmain-contact {
-    background-color: gainsboro;
-    /* border: 1px solid black;
-    width: 400px; */
-    padding: 20px ; 
-    text-align: center;
-    grid-row: 1;
-    grid-column: 1;
-    /* position: relative;
-    left: 10%;
-    bottom: 410px ; */
-}
-
-
-
-/* start second-half */
-.second-half-p h1{
-color: #13366D;
-}
-.second-half-p p{
-    color: #A2A2A2;
-}
-.second-half{
-    display: grid;
-    grid-template-columns: repeat(4,25%);
-    gap: 5px;
-}
-.second-half .Card{
-background-color: red;
-height: 150px;
-width: 100px;
-
-}
-
-/* end second-half */
-
-/* start first half */
-.header-color{
-   color: #13366D; 
-}
-/* end first half */
->>>>>>> main
