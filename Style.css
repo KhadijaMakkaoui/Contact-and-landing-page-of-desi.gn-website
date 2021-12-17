@@ -168,10 +168,9 @@ color: gray;
    text-transform: capitalize;
 }
 
-.first-half{
+main{
     width: 90%;
-    display: flex;
-    flex-direction: column;
+    margin:0 auto;
     /* font-size: .5em; */
     
 }
@@ -219,6 +218,10 @@ color: gray;
 .first-half .section2{
     display: flex;
     justify-content: space-between;
+    
+}
+.first-half .section1{
+    background-color: aquamarine;
     
 }
 .first-half .card ul{
