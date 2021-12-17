@@ -1,4 +1,7 @@
-
+body{
+    background-color: #FBF7EE;
+  
+}
 .cmain-form{
     background-color:gainsboro;
     /* border: 1px solid black;
@@ -51,15 +54,111 @@ color: #13366D;
 }
 .second-half{
     display: grid;
-    grid-template-columns: repeat(4,25%);
-    gap: 5px;
+    grid-template-columns: repeat(4,auto);
 }
 .second-half .Card{
-background-color: red;
-height: 150px;
-width: 100px;
-
+border: 1px solid #C2C2C2;
+margin: 1%;
+background-color: #FFF3D9;
 }
+.Card span{
+color: gray;
+}
+.Card1 .Startup{
+ border-radius:5px;
+ background-color: #13366D;
+ margin-left:10%;
+ margin-top:5%;
+ color:white;
+}
+.Card2 .Startup{
+    border-radius:5px;
+    background-color: #13366D;
+    margin-left:10%;
+    margin-top:5%;
+    color:white;
+   }
+   
+   .Card3 .Startup{
+    border-radius:5px;
+    background-color: #13366D;
+    margin-left:10%;
+    margin-top:5%;
+    color:white;
+   }
+   .Card4 .Startup{
+    border-radius:5px;
+    background-color: #13366D;
+    margin-left:10%;
+    margin-top:5%;
+    color:white;
+   }
+   
+ 
+.Try-for-free{   
+    width: 60%;
+    margin-top:5%;
+    margin-left:5%;
+    display:block;
+    color:#13366D;
+    border-radius: 6px;
+}
+.Try-for-free:hover{
+    color: white;
+    background-color:#13366D; 
+}
+.Card1 ul{
+    list-style-type: none;
+    margin-top: 5%;   
+    }
+.Card2 ul
+{
+    list-style-type: none;
+    margin-top: 5%;
+}
+.Card3 ul
+{list-style-type: none;
+    margin-top: 5%;
+}
+.Card4 ul
+{
+    list-style-type: none;
+    margin-top: 5%;
+}
+.Card1 li{
+    margin-top: 5%;
+    }
+.Card2 li
+{   
+     margin-top: 5%;
+}
+.Card3 li
+{   
+     margin-top: 5%;
+}
+.Card4 li
+    {   
+     margin-top: 5%;
+    }
+.Card1 p {
+    margin-left: 12%;
+         }
+.Card2 p
+    {    
+     margin-left: 15%;
+    }
+.Card3 p
+    { 
+     margin-left:5%;
+    }
+.Card4 p
+   {
+      margin-left:5%;
+    }
+.Card4 img{ 
+    margin-left:5%;  
+    width: 80%;
+     }
 
 /* end second-half */
 
