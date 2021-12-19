@@ -41,6 +41,30 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+@media (max-width: 500px){
+    .cmain {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        display: grid;
+        border: 1px solid black;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cmain-contactus {
+        background-color: rgb(255, 255, 255);
+        padding: 20px ; 
+        text-align: center;
+        grid-row: 3;
+        grid-column: 1;
+        text-align: left;
+    }
+    
+    /* .cmain-form {
+        grid-row: 1;
+        grid-column: 1;
+        
+    } */
+}
 .cmain-img {
     margin-top: 10px;
 }
@@ -54,14 +78,14 @@ body{
     color: rgb(63, 30, 207);
 }
 .cmain-contactus{
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 .cmain-icon {
 padding: 10px 20px;
 display: grid;
 grid-template-columns: 1fr 6fr;
 }
-.cmain-contact {
+.cmain-contactus {
     background-color: rgb(255, 255, 255);
     padding: 20px ; 
     text-align: center;
