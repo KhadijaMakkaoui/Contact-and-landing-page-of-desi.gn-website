@@ -142,6 +142,89 @@ body {
 }
 
 /* end second-half */
+.second-half-p h1{
+    color: #13366D;
+    }
+    .second-half-p p{
+        color: #A2A2A2;
+    }
+    .second-half{
+        display: grid;
+        /* grid-template-columns: repeat(4,19%); */
+        grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+
+        justify-content: space-between;
+      
+    }
+    .second-half .Card{
+    border: 1px solid #C2C2C2;
+    margin: 1%;
+    background-color: #FFF3D9;
+    }
+    .Card span{
+    color: gray;
+    }
+     .Startup{
+     border-radius:5px;
+     margin-left:10%;
+     margin-top:5%;
+     color:white;
+    }
+    .Try-for-free{   
+      width:91%;
+        margin-top:5%;
+        margin-left:5%;
+        display:block;
+        color:#13366D;
+        border-radius: 6px;
+    }
+    .Try-for-free:hover{
+        color: #13366D;
+        background-color:#FFF3D9;
+        border: 2px solid #13366D; 
+    }
+    .Card ul{
+        list-style-type: none;
+        margin-top: 5%; 
+        padding-left: 17px; 
+        }
+    .Card li{
+        margin-top: 5%;
+        /* margin-left:-15%; */
+       
+        }
+    .tcard{
+        background-color: #13366D;
+        width: 40%;
+        padding: 2%;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 11px;
+        margin-left: 24px;
+    }
+    .Card1 p {
+        margin-left: 12%;
+             }
+    .Card2 p
+        {    
+         margin-left: 15%;
+        }
+        .Card p
+        { 
+            margin-left: 5%;
+             
+        }
+    .Card .last-card
+        { 
+            margin-left: 5%;
+             color: grey;
+        }
+    .Card4 img{ 
+        margin-left:5%;  
+        width: 91%;
+         }
+    
+    /* end second-half */
 
 /* start first half */
 .headers {
@@ -311,3 +394,4 @@ header li a {
 
 }
 /* responsive first-half */
+/* end first half */
