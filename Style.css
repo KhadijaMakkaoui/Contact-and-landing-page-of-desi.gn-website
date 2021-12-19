@@ -81,7 +81,9 @@ grid-template-columns: 1fr 6fr;
     }
     .second-half{
         display: grid;
-        grid-template-columns: repeat(4,19%);
+        /* grid-template-columns: repeat(4,19%); */
+        grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+
         justify-content: space-between;
       
     }
@@ -114,11 +116,13 @@ grid-template-columns: 1fr 6fr;
     }
     .Card ul{
         list-style-type: none;
-        margin-top: 5%;   
+        margin-top: 5%; 
+        padding-left: 17px; 
         }
     .Card li{
         margin-top: 5%;
-        margin-left:-15%;
+        /* margin-left:-15%; */
+       
         }
     .tcard{
         background-color: #13366D;
@@ -127,7 +131,7 @@ grid-template-columns: 1fr 6fr;
         border-radius: 11px;
         text-align: center;
         font-size: 11px;
-        margin-left: 11px;
+        margin-left: 24px;
     }
     .Card1 p {
         margin-left: 12%;
@@ -136,9 +140,15 @@ grid-template-columns: 1fr 6fr;
         {    
          margin-left: 15%;
         }
-    .Card p
+        .Card p
         { 
-         margin-left:5%;
+            margin-left: 5%;
+             
+        }
+    .Card .last-card
+        { 
+            margin-left: 5%;
+             color: grey;
         }
     .Card4 img{ 
         margin-left:5%;  
@@ -237,57 +247,3 @@ width: 80%;
 }
 
 /* end first half */
-/* header */
-*{
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-.header-all{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 75px;
-    padding-right: 75px;
-}
-.header-button{
- 
- 
-   padding:12px;
-
-}
-.header-ul{
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-    list-style: none; 
-}
-.header-link{
-    margin-right: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 19px;
-}
-.header-b2{
-    padding: 6px;
-    background-color: rgb(18, 18, 209);
-    width: 96px;
-    color: cornsilk;
-    border: none;
-}
-li a{
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-}
-.header-p{
-color: rgb(78, 78, 235);
-font-size: 19px;
-
-
-}
-
-
-/* header */
