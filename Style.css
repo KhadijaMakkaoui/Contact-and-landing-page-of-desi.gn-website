@@ -1,9 +1,7 @@
 body {
   background-color: #fbf7ee;
 }
-.cmain-form {
-  background-color: rgb(233, 222, 158);
-}
+
 .cmain-label {
   padding: 10px;
 }
@@ -25,7 +23,7 @@ body {
   padding-top: 10px;
 }
 .cmain-envoyer {
-  background-color: deepskyblue;
+  background-color: #0B48A8;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -33,14 +31,53 @@ body {
   padding: 3px;
   margin-top: 10px;
 }
+.cmain-text {
+    color: #0B48A8;
+    font-weight: bolder;
+}
+.cmain-img {
+    margin-top: 10px;
+  }
+  .cmain-img3 {
+    margin-top: 10px;
+  }
+  .cmain-paragraphe {
+    font-size: 110%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(63, 30, 207);
+  }
+  
+  .cmain-contactus {
+    padding-top: 80px;
+  }
+  .cmain-icon {
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
+  
 .cmain {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 500px;
   display: grid;
-  border: 1px solid black;
+  border-width: 1px;
+  border-color: black;
+  border-style:outset;
+  border-left: none;
+  border-top: none;
   width: 80%;
   margin: 0 auto;
 }
+.cmain-contactus {
+    background-color: rgb(255, 255, 255);
+    padding: 20px ; 
+   
+}
+.cmain-form {
+    background-color: #FFF3D9;
+  }
 @media (max-width: 500px){
     .cmain {
         grid-template-columns: 1fr ;
@@ -50,61 +87,19 @@ body {
         width: 100%;
         margin: 0 auto;
     }
+
     .cmain-contactus {
         background-color: rgb(255, 255, 255);
         padding: 20px ; 
         text-align: center;
-        grid-row: 3;
+        grid-row: 2;
         grid-column: 1;
         text-align: left;
     }
-    
-    /* .cmain-form {
-        grid-row: 1;
-        grid-column: 1;
-        
-    } */
 }
-.cmain-img {
-  margin-top: 10px;
-}
-.cmain-img3 {
-  margin-top: 10px;
-}
-.cmain-paragraphe {
-  font-size: 110%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: bolder;
-  color: rgb(63, 30, 207);
-}
-.cmain-contactus{
-    /* padding-top: 80px; */
-}
-.cmain-contactus {
-  padding-top: 80px;
-}
-.cmain-icon {
-  padding: 10px 20px;
-  display: grid;
-  grid-template-columns: 1fr 6fr;
-}
-.cmain-contactus {
-    background-color: rgb(255, 255, 255);
-    padding: 20px ; 
-    text-align: center;
-    grid-row: 1;
-    grid-column: 1;
-    text-align: left;
-}
-.cmain-contact {
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  text-align: center;
-  grid-row: 1;
-  grid-column: 1;
-  text-align: left;
-}
+
+
+
 
 /* start second-half */
 .second-half-p h1 {
@@ -131,6 +126,9 @@ body {
   margin-left: 10%;
   margin-top: 5%;
   color: white;
+}
+.cmain-titre{
+    text-align: center;
 }
 .Try-for-free {
   width: 91%;
