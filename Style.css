@@ -197,7 +197,8 @@ body {
     background-color: #FFF3D9;
     }
     .Card span{
-    color: gray;
+    /* color: gray; */
+    color: #525252;
     }
      .Startup{
      border-radius:5px;
@@ -252,7 +253,7 @@ body {
     .Card .last-card
         { 
             margin-left: 5%;
-             color: grey;
+             color: #292828;;
         }
     .Card4 img{ 
         margin-left:5%;  
@@ -430,3 +431,10 @@ header li a {
 }
 /* responsive first-half */
 /* end first half */
+.color-Ax{
+  color: #545454 ;
+}
+.color2-Ax{
+  color: #545454;
+}
+
