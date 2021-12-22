@@ -270,7 +270,6 @@ body {
 main {
   width: 90%;
   margin: 0 auto;
-  /* font-size: .5em; */
 }
 .first-half .section1 {
   display: flex;
@@ -283,9 +282,7 @@ main {
   margin-top: 4%;
   /* align-items: center; */
 }
-.first-half .box2 {
-  /* width: 40%; */
-}
+
 .first-half .box2 img {
   width: 100%;
 
@@ -325,6 +322,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 .first-half .section2 {
@@ -349,7 +347,7 @@ main {
 }
 
 /* end first half */
-/* header */
+/*start header */
 *{
     box-sizing: border-box;
     
@@ -447,19 +445,19 @@ font-size: 19px;
     }
 
 }
-/* header */
+/* end header */
 
 /* start responsive first-half */
+/* 650 et moins */
 @media (max-width:650px){
   
-   .box1 , .box2{
+   .box1 ,
+   .box2{
      width: 100%;
    }
-   
     .section1{
-      display: flex;
+      
         flex-direction: column;
-       align-items: center;
     }
     .section2{
         flex-direction: column;
@@ -467,15 +465,11 @@ font-size: 19px;
    
     .first-half .card{
       width: 100%;
-      align-self: center;
     }
 
 }
 @media (min-width:650px){
-   
-  .box1{
-    width: 40%;
-  }
+  .box1,
   .box2{
     width: 40%;
   }
